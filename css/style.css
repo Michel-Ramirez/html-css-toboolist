@@ -5,13 +5,18 @@
 }
 
 /* generics */
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+header{
+    background-color: white;
 }
 
 /* logo */
 
-#logo{
+#logo {
     height:100px;
     background-repeat: no-repeat;
     vertical-align: middle;
@@ -23,4 +28,141 @@ h1{
     vertical-align: middle;
     font-size: 50px;
     font-weight: 800;
+}
+
+/* Actions */
+
+.add-task {
+    height: 30px;
+    width: 100px;
+    background-color: #1E90FF;
+    font-size: 18px;
+    color: white;
+    border: 0 solid white;
+    border-radius: 5px;
+}
+
+.add-section {
+    height: 30px;
+    width: 150px;
+    color: #8D868B;
+    background-color: white;
+    font-size: 18px;
+    border: 2px solid #8D868B;
+    border-radius: 5px;
+}
+
+/* Utility */
+
+.list-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.check, .cross, .tag{
+    display: inline-block;
+
+}
+
+.check{
+
+    height:20px;
+    width: 20px;
+    border: 1px solid lime;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: lime;
+    
+}
+
+.cross{
+    height:20px;
+    width: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: red;
+}
+
+.editorial {
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: #45ABEA;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.goals{
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: #9C72E4;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.recruiting{
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: #64C0A9;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.mobile{
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: #F29E33;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.website{
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: #D863A1;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.sales{
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: #B0C926;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* Layout */
+
+#background-main{
+    
+    width: 30%;
+    margin: 10px auto;
+}
+
+main{
+    padding: 20px;
+    background-color: white;
+}
+
+#action{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 5px solid grey;
+    
 }
