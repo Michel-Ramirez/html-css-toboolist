@@ -32,24 +32,23 @@ h1{
 
 /* Actions */
 
-.add-task {
+.add-task, .add-section{
     height: 30px;
     width: 100px;
+    border-radius: 5px;
+
+}
+
+.add-task {
     background-color: #1E90FF;
-    font-size: 18px;
     color: white;
     border: 0 solid white;
-    border-radius: 5px;
 }
 
 .add-section {
-    height: 30px;
-    width: 150px;
     color: #8D868B;
     background-color: white;
-    font-size: 18px;
     border: 2px solid #8D868B;
-    border-radius: 5px;
 }
 
 /* Utility */
@@ -62,6 +61,7 @@ h1{
 
 .check, .cross, .tag{
     display: inline-block;
+    margin-bottom:10px;
 
 }
 
@@ -154,7 +154,7 @@ h1{
 /* Layout */
 
 #background-main{
-    width: 30%;
+    width: 50%;
     margin: 20px auto;
 }
 
