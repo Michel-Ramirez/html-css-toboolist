@@ -65,10 +65,6 @@ h1{
 
 }
 
-.tag{
-    font-size: 13px;
-}
-
 .check{
 
     height:20px;
@@ -91,64 +87,40 @@ h1{
     color: red;
 }
 
-.editorial {
-    height: 20px;
-    width: 70px;
+/* badge */
+
+.tag{
+    font-size: 13px;
+    padding: 5px 10px;
     color: white;
-    background-color: #45ABEA;
-    border-radius: 10px;
     text-align: center;
-    line-height: 20px;
+    border-radius: 10px;
+}
+
+.editorial {
+    background-color: #45ABEA;
 }
 
 .goals{
-    height: 20px;
-    width: 70px;
-    color: white;
     background-color: #9C72E4;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 20px;
 }
 
 .recruiting{
-    height: 20px;
-    width: 70px;
-    color: white;
     background-color: #64C0A9;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 20px;
 }
 
 .mobile{
-    height: 20px;
-    width: 70px;
-    color: white;
     background-color: #F29E33;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 20px;
 }
 
 .website{
-    height: 20px;
-    width: 70px;
-    color: white;
     background-color: #D863A1;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 20px;
+    
 }
 
 .sales{
-    height: 20px;
-    width: 70px;
-    color: white;
     background-color: #B0C926;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 20px;
+    
 }
 
 /* Layout */
